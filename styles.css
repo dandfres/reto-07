@@ -1,0 +1,57 @@
+body {
+    background-color: #F3EAE3;
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    width: 650px;
+}
+
+.perfume {
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+.description {
+    padding: 40px;
+    font-family: "Fraunces";
+    font-size: medium;
+}
+
+span {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #3D8168;
+    font-size: xx-large;
+}
+
+.initialPrice {
+    text-decoration: line-through;
+    padding-left: 20px
+}
+
+button {
+    height: 50px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #3D8168;
+    color: white;
+}
